@@ -1,0 +1,400 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+<script src="./script.js"></script>
+<div class="scroll-container" id="scroll-wrapper">
+<section class="hero">
+    <nav class="navbar reveal-drop delay-1">
+        <div class="logo">Logo</div>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Listings</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Blog Posts</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <button class="btn-primary">Book consultation</button>
+    </nav>
+
+    <div class="hero-content">
+        <h1 class="reveal-up delay-1">Find a place where <br> you belong.</h1>
+        <p class="reveal-up delay-2">Explore handpicked properties designed for comfort,<br> inspiration, and the joy of discovery.</p>
+        <button class="btn-dark reveal-up delay-2">Book your stay</button>
+    </div>
+</section>
+
+
+<div class="filter-container">
+<div class="filter-bar reveal-up delay-1">
+    <div class="filter-main">
+        <div class="input-wrapper">
+            <svg class="search-icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+            <input type="text" placeholder="Search for properties...">
+        </div>
+        <button class="btn-search-green">Search</button>
+    </div>
+
+    <div class="filter-dropdown">
+        <span>Location</span>
+        <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"></path></svg>
+    </div>
+
+    <div class="filter-dropdown">
+        <span>Category</span>
+        <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"></path></svg>
+    </div>
+
+    <div class="filter-dropdown">
+        <span>Type</span>
+        <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"></path></svg>
+    </div>
+</div>
+</div>
+
+
+<section class="residence-section">
+    <div class="residence-container">
+        <div class="residence-header">
+            <div class="header-left">
+                <span class="discover-badge reveal-up delay-1">DISCOVER</span>
+                <h2 class="reveal-up delay-2">Explore your dream destination</h2>
+            </div>
+            <button class="btn-dark reveal-up delay-3">View more</button>
+        </div>
+
+        <div class="residence-grid">
+            <div class="residence-card1 reveal-up delay-1">
+                <div class="img-container">
+                    <span class="top-badge">1 Bedrooms / 2 Guest</span>
+                    <img src="https://imagef2.promeai.pro/process/do/972207c10c51b1222de1b60b7dd3ee91.webp?sourceUrl=/g/p/gallery/publish/2024/12/08/6671494fe02d4a02b8295635d4a81f2e.jpg&x-oss-process=image/resize,w_500,h_500/format,webp&sign=b11f2a537164869c5a941a8de01a7f35" alt="Classic House">
+                </div>
+                <div class="card-info">
+                    <div class="info-left">
+                        <h3>Cityscape Lofts</h3>
+                        <p class="loc">New York Downtown</p>
+                    </div>
+                    <div class="price-tag">$180 USD</div>
+                </div>
+            </div>
+
+            <div class="residence-card2 reveal-up delay-2">
+                <div class="img-container">
+                    <span class="top-badge">2 Bedrooms / 4 Guest</span>
+                    <img src="https://imagef2.promeai.pro/process/do/5d3bd681032dfe85809eaebf3846360d.webp?sourceUrl=/g/p/gallery/publish/2024/12/06/90bbef3bfa344d94bbebc599938f2b24.jpg&x-oss-process=image/resize,w_500,h_500/format,webp&sign=3b87c3d2c364cc8a5d3b068438d83e19" alt="Luxury House">
+                </div>
+                <div class="card-info">
+                    <div class="info-left">
+                        <h3>Sunset Horizon Villas</h3>
+                        <p class="loc">Santorini Sunset</p>
+                    </div>
+                    <div class="price-tag">$150 USD</div>
+                </div>
+            </div>
+
+            <div class="residence-card3 reveal-up delay-3">
+                <div class="img-container">
+                    <span class="top-badge">1 Bedrooms / 2 Guest</span>
+                    <img src="https://imagef2.promeai.pro/process/do/ba07e2f702b026c43713b5ab8d27b80b.webp?sourceUrl=/g/p/gallery/publish/2024/12/06/00f23e6e0c934f0f992b175b07bf88ac.jpg&x-oss-process=image/resize,w_500,h_500/format,webp&sign=9ca484de65dede1ac8114c510d66d611" alt="Modern House">
+                </div>
+                <div class="card-info">
+                    <div class="info-left">
+                        <h3>Mountainview Cabin</h3>
+                        <p class="loc">Aspen Heights</p>
+                    </div>
+                    <div class="price-tag">$95 USD</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="residence-footer">
+            <div class="arrows">
+                <button class="arrow-btn reveal-drop delay-1">←</button>
+                <button class="arrow-btn reveal-up delay-2">→</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="why-choose-us">
+    <div class="container">
+        <div class="section-header">
+            <span class="badge reveal-up delay-1">FEATURES</span>
+            <h2 class="reveal-up delay-2">Why Choose Us</h2>
+            <p class="reveal-up delay-3">We provide a seamless experience to help you find <br> the perfect place to call home.</p>
+        </div>
+
+        <div class="features-grid">
+            <div class="feature-item reveal-up delay-1">
+                <div class="icon-circle">
+                    <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+                </div>
+                <h3>Verified Listings</h3>
+                <p>Every property on our platform undergoes a rigorous verification process for your peace of mind.</p>
+            </div>
+
+            <div class="feature-item reveal-up delay-2">
+                <div class="icon-circle">
+                    <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none"><line x1="12" y1="1" x2="12" y2="23"></line><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg>
+                </div>
+                <h3>Affordable Prices</h3>
+                <p>We offer competitive market rates and exclusive deals to ensure you get the best value for your investment.</p>
+            </div>
+
+            <div class="feature-item reveal-up delay-3">
+                <div class="icon-circle">
+                    <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none"><path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><polyline points="16 11 18 13 22 9"></polyline></svg>
+                </div>
+                <h3>Trusted Agents</h3>
+                <p>Work with certified professionals who prioritize your needs and guide you through every step.</p>
+            </div>
+
+            <div class="feature-item reveal-up delay-4">
+                <div class="icon-circle">
+                    <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none"><polyline points="9 11 12 14 22 4"></polyline><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"></path></svg>
+                </div>
+                <h3>Easy Process</h3>
+                <p>From searching to signing, our streamlined digital platform makes the entire journey effortless.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<section class="about-us">
+    <div class="about-container">
+        <div class="about-image reveal-left delay-1">
+            <img src="./images/ed8289b7d882839627eaa3cf16038142.jpg" alt="Our Team">
+            <div class="image-badge">Since 2024</div>
+        </div>
+
+        <div class="about-text  ">
+            <span class="discover-badge reveal-right delay-1">OUR STORY</span>
+            <h2 class="reveal-right delay-2">Designed for the <br> modern traveler.</h2>
+            <p  class="reveal-right delay-3">We started Stayli with a simple mission: to bridge the gap between luxury and belonging. Our platform isn't just about finding a roof; it's about discovering a space that resonates with your lifestyle.</p>
+            
+            <div class="about-stats reveal-right delay-4">
+                <div class="stat-item">
+                    <h4>12k+</h4>
+                    <span>Properties</span>
+                </div>
+                <div class="stat-item">
+                    <h4>45+</h4>
+                    <span>Destinations</span>
+                </div>
+                <div class="stat-item">
+                    <h4>100%</h4>
+                    <span>Verified</span>
+                </div>
+            </div>
+
+            <button class="btn-dark reveal-drop delay-3">Learn more about us</button>
+        </div>
+    </div>
+</section>
+
+
+<section class="testimonials">
+    <div class="container">
+        <div class="residence-header">
+            <div class="header-left">
+                <span class="discover-badge reveal-left delay-1">TESTIMONIALS</span>
+                <h2 class="reveal-left delay-3">What our members say <br> about their journey</h2>
+            </div>
+            <p class="reveal-right delay-1">Our community consists of thousands of happy homeowners and travelers who found their sanctuary through our platform.</p>
+        </div>
+    </div>
+
+    <div class="testimonial-wrapper reveal-up delay-1">
+        <div class="testimonial-track">
+            <div class="testimonial-card">
+                <div class="stars">⭐⭐⭐⭐⭐</div>
+                <p>“Great experience with Stayli. The verification process made me feel secure, and the UI is incredibly clean.”</p>
+                <div class="user-info">
+                    <div class="user-img"></div>
+                    <div class="user-detail">
+                        <span class="name">Rishipal Singh</span>
+                        <span class="role">Software Engineer</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="testimonial-card">
+                <div class="stars">⭐⭐⭐⭐⭐</div>
+                <p>“Found my home quickly! The filters are so intuitive. I was able to book a villa in Santorini within minutes.”</p>
+                <div class="user-info">
+                    <div class="user-img"></div>
+                    <div class="user-detail">
+                        <span class="name">Arjun Sharma</span>
+                        <span class="role">Creative Designer</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="testimonial-card">
+                <div class="stars">⭐⭐⭐⭐⭐</div>
+                <p>“The most premium real estate platform I've used. The 'Unique Stays' category is a game changer.”</p>
+                <div class="user-info">
+                    <div class="user-img"></div>
+                    <div class="user-detail">
+                        <span class="name">Sarah Jenkins</span>
+                        <span class="role">Digital Nomad</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="testimonial-card">
+                <div class="stars">⭐⭐⭐⭐⭐</div>
+                <p>“Great experience with Stayli. The verification process made me feel secure, and the UI is incredibly clean.”</p>
+                <div class="user-info">
+                    <div class="user-img"></div>
+                    <div class="user-detail">
+                        <span class="name">Rishipal Singh</span>
+                        <span class="role">Software Engineer</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="testimonial-card">
+                <div class="stars">⭐⭐⭐⭐⭐</div>
+                <p>“Found my home quickly! The filters are so intuitive. I was able to book a villa in Santorini within minutes.”</p>
+                <div class="user-info">
+                    <div class="user-img"></div>
+                    <div class="user-detail">
+                        <span class="name">Arjun Sharma</span>
+                        <span class="role">Creative Designer</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="consultation-open">
+    <div class="container">
+        <div class="residence-header">
+            <div class="header-left">
+                <span class="discover-badge reveal-left delay-1">CONSULTATION</span>
+                <h2 class="reveal-left delay-2">Book Your Private Tour <br> with our Experts</h2>
+            </div>
+            <p class="reveal-right delay-1">Fill out the details below and our luxury property experts will contact you within 24 hours to schedule a viewing.</p>
+        </div>
+
+        <form class="consult-form-open">
+            <div class="form-grid">
+                <div class="input-group reveal-up delay-1">
+                    <label>Full Name</label>
+                    <input type="text" placeholder="Rishipal Singh" required>
+                </div>
+                <div class="input-group reveal-up delay-1">
+                    <label>Email Address</label>
+                    <input type="email" placeholder="name@example.com" required>
+                </div>
+                <div class="input-group reveal-up delay-2">
+                    <label>Mobile Number</label>
+                    <input type="tel" placeholder="+91 XXXXX XXXXX" required>
+                </div>
+                <div class="input-group reveal-up delay-2">
+                    <label>Preferred Location</label>
+                    <input type="text" placeholder="e.g. Santorini, New York">
+                </div>
+                <div class="input-group full-width reveal-up delay-3">
+                    <label>Message</label>
+                    <textarea placeholder="Tell us about your dream home..." rows="4"></textarea>
+                </div>
+            </div>
+
+            <div class="form-footer-open">
+                <button type="submit" class="btn-dark reveal-up delay-2">Send Inquiry</button>
+                
+                <div class="social-connect-open">
+                    <span class="reveal-up delay-1">Quick connect:</span>
+                    <div class="social-links">
+                        <a href="#" class="social-icon">
+                            <img class="reveal-drop delay-2" src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" width="28" alt="WhatsApp">
+                        </a>
+                        <a href="#" class="social-icon">
+                            <img class="reveal-drop delay-3" src="https://upload.wikimedia.org/wikipedia/commons/e/e7/Instagram_logo_2016.svg" width="28" alt="Instagram">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</section>
+
+
+<footer class="main-footer">
+    <div class="footer-bg-text reveal-up delay-1">Logo</div>
+
+    <div class="footer-container">
+        <div class="footer-grid">
+            
+            <div class="footer-col brand-col">
+                <div class="footer-logo reveal-up delay-1">Logo<span>.</span></div>
+                <p class="footer-tagline reveal-up delay-2">Curating the world's most exceptional residential experiences since 2024.</p>
+                <div class="contact-pill reveal-up delay-3">
+                    <span class="pulse"></span>
+                    <a href="mailto:hello@stayli.com">Book a Private Tour</a>
+                </div>
+            </div>
+
+            <div class="footer-col">
+                <h4 class="footer-title reveal-left delay-1">Navigation</h4>
+                <ul class="footer-links reveal-left delay-2">
+                    <li><a href="#">Explore Listings</a></li>
+                    <li><a href="#">Premium Suites</a></li>
+                    <li><a href="#">Our Story</a></li>
+                    <li><a href="#">Member Club</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4 class="footer-title reveal-left delay-1">Connect</h4>
+                <div class="social-icons-row reveal-left delay-2">
+                    <a href="#" class="s-icon">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
+                    </a>
+                    <a href="#" class="s-icon">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/e/e7/Instagram_logo_2016.svg" alt="Instagram">
+                    </a>
+                </div>
+                <div class="footer-newsletter reveal-left delay-3">
+                    <input type="email" placeholder="Join the inner circle">
+                    <button class="arrow-submit">→</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-divider reveal-up delay-1"></div>
+
+        <div class="footer-bottom reveal-up ">
+            <div class="copyright">© 2026 Stayli Luxury. Crafted for the Modern Traveler.</div>
+            <div class="legal-wrap">
+                <a href="#">Privacy</a>
+                <a href="#">Terms</a>
+                <a href="#">Cookies</a>
+            </div>
+        </div>
+    </div> 
+</footer>
+</div>
+
+</div>
+
+
+
+
+
+
+
+</body>
+</html>
